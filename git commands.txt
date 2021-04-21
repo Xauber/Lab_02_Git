@@ -1,2 +1,10 @@
-init, remote, clone, add, commit,status, push
-pull
+init - initialize repository 
+remote - deal with remote repositories
+clone - clone local repository
+add - add files in repository to tracked files
+commit - still don't get that one, is it like a comment?
+status - check status of local repository
+push - push files to other repository
+pull - pull files from other repository
+
+it's driving me nuts how push won't work properly
