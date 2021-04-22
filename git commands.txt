@@ -7,4 +7,6 @@ status - check status of local repository
 push - push files to other repository
 pull - pull files from other repository
 
-it's driving me nuts how push won't work properly
+it's driving me nuts how push won't work properly - Amélie
+
+Luckily it worked now..:) - Ben
