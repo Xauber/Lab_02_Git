@@ -2,9 +2,23 @@
 public class BlackjackAmelie {
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		/**
+		 * https://codingbat.com/prob/p117019
+		 *
+		 Given 2 int values greater than 0, return whichever value is nearest to 21 without going over.
+		 Return 0 if they both go over.
+
+		 blackjack(19, 21) → 21
+		 blackjack(21, 19) → 21
+		 blackjack(19, 22) → 19
+		 */
+		*
 		BlackjackAmelie no = new BlackjackAmelie();
 		System.out.println(no.blackjack(22, 15));
+		System.out.println(no.blackjack(19, 21));
+		System.out.println(no.blackjack(21, 19));
+		System.out.println(no.blackjack(19, 22));
+
 	}
 
 public int blackjack(int a, int b) {
