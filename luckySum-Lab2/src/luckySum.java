@@ -1,5 +1,5 @@
 
-public class LuckySum{
+public class luckySum{
 
     public static void main(String[] args) {
         /**
@@ -15,10 +15,12 @@ public class LuckySum{
          luckySum(1, 13, 3) → 1
          */
 
-        LuckySum sum = new LuckySum();
+        luckySum sum = new luckySum();
         System.out.println(sum.luckySumAlgebra(1, 2, 3));
         System.out.println(sum.luckySumAlgebra(1, 2, 13));
         System.out.println(sum.luckySumAlgebra(1, 13, 3));
+        System.out.println(sum.luckySumAlgebra(13, 6, 7));
+        System.out.println(sum.luckySumAlgebra(3, 13, 13));
 
     }
 

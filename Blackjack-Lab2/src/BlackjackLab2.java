@@ -1,5 +1,5 @@
 
-public class BlackjackAmelie {
+public class BlackjackLab2 {
 	
 	public static void main(String[] args) {
 		/**
@@ -12,7 +12,7 @@ public class BlackjackAmelie {
 		 blackjack(21, 19) → 21
 		 blackjack(19, 22) → 19
 		 */
-		BlackjackAmelie no = new BlackjackAmelie();
+		BlackjackLab2 no = new BlackjackLab2();
 		System.out.println(no.blackjack(22, 15));
 		System.out.println(no.blackjack(19, 21));
 		System.out.println(no.blackjack(21, 19));
